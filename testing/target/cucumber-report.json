@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-23T07:14:31.563Z",
+        "line": 4,
+        "name": "Should Credit Transaction For Account Id 1",
+        "description": "",
+        "id": "transactions;should-credit-transaction-for-account-id-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4003500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a precondition",
+            "match": {
+              "location": "com.helloworld.testing.TransactionFetaure.a_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "an action is performed",
+            "match": {
+              "location": "com.helloworld.testing.TransactionFetaure.an_action_is_performed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5416300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "an expected result is observed",
+            "match": {
+              "location": "com.helloworld.testing.TransactionFetaure.an_expected_result_is_observed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JIRA-123"
+          }
+        ]
+      }
+    ],
+    "name": "Transactions",
+    "description": "",
+    "id": "transactions",
+    "keyword": "Feature",
+    "uri": "classpath:features/Transaction.feature",
+    "tags": []
+  }
+]
